@@ -1,0 +1,7 @@
+Verified+1: ONAP Jobbuilder <onap-jobbuilder@jenkins.onap.org>
+Code-Review+2: Kevin Sandi <ksandi@contractor.linuxfoundation.org>
+Submitted-by: Kevin Sandi <ksandi@contractor.linuxfoundation.org>
+Submitted-at: Wed, 19 Jul 2023 17:42:36 +0000
+Reviewed-on: https://gerrit.onap.org/r/c/portal-ng/e2e/+/135436
+Project: portal-ng/e2e
+Branch: refs/heads/master
