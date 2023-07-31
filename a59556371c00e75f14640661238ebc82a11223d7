@@ -1,0 +1,276 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd8955da_35ff9482",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:38:51Z",
+      "side": 1,
+      "message": "We should call it `portal-ng end-to-end ui tests` instead of `ONAP Portal CE edition end-to-end UI tests`",
+      "revId": "a59556371c00e75f14640661238ebc82a11223d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fad16206_eb1bde84",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:38:51Z",
+      "side": 1,
+      "message": "Can you also add `# portal-ng end-to-end ui tests` at the top of the document?",
+      "revId": "a59556371c00e75f14640661238ebc82a11223d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "17f5698b_2a7dcb6f",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:38:51Z",
+      "side": 1,
+      "message": "Please change this to `## Run tests` to have a hierarchical heading level",
+      "revId": "a59556371c00e75f14640661238ebc82a11223d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f9e571f_36cffb47",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:38:51Z",
+      "side": 1,
+      "message": "typo `and` -\u003e in a",
+      "revId": "a59556371c00e75f14640661238ebc82a11223d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cee01c59_746cc5bb",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:38:51Z",
+      "side": 1,
+      "message": "Please use code highlighting similar to the other references to files (`test-local.properties`)",
+      "revId": "a59556371c00e75f14640661238ebc82a11223d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d9cd4c19_51a9f0bc",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:38:51Z",
+      "side": 1,
+      "message": "Please introduce a heading `### In Chrome`",
+      "revId": "a59556371c00e75f14640661238ebc82a11223d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5cfcaf3_4bcbf41f",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:38:51Z",
+      "side": 1,
+      "message": "Please use code blocks instead of inline code to make these commands stand out more, i.e\n```sh\n./gradlew cucumber\n```",
+      "revId": "a59556371c00e75f14640661238ebc82a11223d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2f4babe8_552a3d27",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:38:51Z",
+      "side": 1,
+      "message": "Please use code blocks instead of inline code to make these commands stand out more",
+      "revId": "a59556371c00e75f14640661238ebc82a11223d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5244f7a3_4d51100e",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:38:51Z",
+      "side": 1,
+      "message": "Please introduce a heading `### In headless mode`",
+      "revId": "a59556371c00e75f14640661238ebc82a11223d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e79d5bdf_826929ab",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:38:51Z",
+      "side": 1,
+      "message": "Please use code blocks instead of inline code to make these commands stand out more",
+      "revId": "a59556371c00e75f14640661238ebc82a11223d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3225c594_7f61ac86",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:38:51Z",
+      "side": 1,
+      "message": "Please change the heading to `## Local development`",
+      "revId": "a59556371c00e75f14640661238ebc82a11223d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c908b4d5_5ec677e4",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:38:51Z",
+      "side": 1,
+      "message": "Please use code blocks instead of inline code to make these commands stand out more",
+      "revId": "a59556371c00e75f14640661238ebc82a11223d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a761ce13_cbfba168",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:38:51Z",
+      "side": 1,
+      "message": "Please change the heading to `## Test Reports`",
+      "revId": "a59556371c00e75f14640661238ebc82a11223d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9496e91b_b7f3adcf",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:38:51Z",
+      "side": 1,
+      "message": "`on MAC, you must install`",
+      "revId": "a59556371c00e75f14640661238ebc82a11223d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "52eaf3ad_c6f6e820",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:38:51Z",
+      "side": 1,
+      "message": "Unclear what `and then: https://...` means in this context. Can you reformulate this?",
+      "revId": "a59556371c00e75f14640661238ebc82a11223d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4920b8e1_51f19565",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:38:51Z",
+      "side": 1,
+      "message": "Can you use a code block here?",
+      "revId": "a59556371c00e75f14640661238ebc82a11223d7",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    }
+  ]
+}
