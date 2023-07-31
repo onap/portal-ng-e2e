@@ -1,0 +1,115 @@
+plugins {
+    id 'java'
+    id 'io.qameta.allure' version '2.9.3'
+}
+apply plugin: 'io.qameta.allure'
+group 'org.onap.portal.e2e.test'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.cucumber:cucumber-junit:7.3.3'
+    implementation 'io.cucumber:cucumber-java:7.3.3'
+    implementation 'com.codeborne:selenide:6.14.0'
+    implementation 'io.qameta.allure:allure-cucumber7-jvm:2.20.1'
+    implementation 'net.serenity-bdd:serenity-cucumber:3.4.3'
+    implementation 'net.serenity-bdd:serenity-core:3.4.3'
+    implementation 'net.serenity-bdd:serenity-junit:3.4.3'
+    implementation 'io.qameta.allure:allure-selenide:2.20.1'
+    implementation 'org.assertj:assertj-core:3.22.0'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-params:5.8.2'
+    testImplementation 'org.junit.vintage:junit-vintage-engine:5.8.2'
+}
+
+configurations {
+    cucumberRuntime {
+        extendsFrom testImplementation
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+
+    apply plugin: 'idea'
+    apply plugin: 'java'
+    apply plugin: 'java-library'
+    apply plugin: 'io.qameta.allure'
+
+    java {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    test {
+        useJUnitPlatform()
+        testLogging.showStandardStreams = true
+        systemProperty "cucumber.filter.tags", System.getProperty("cucumber.filter.tags")
+    }
+    gradle.startParameter.continueOnFailure = true
+}
+
+tasks.register('cucumber') {
+    cleanupAllure
+    dependsOn assemble, testClasses
+    doLast {
+        javaexec {
+            systemProperties['selenide.headless'] = 'false'
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = [
+                    '--plugin', 'pretty',
+                    '--plugin', 'io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm',
+                    '--glue', 'org.onap.portal.e2e.test',
+                    'src/test/resources']
+        }
+    }
+}
+
+tasks.register('cucumberLocalDebug') {
+    cleanupAllure
+    dependsOn assemble, testClasses
+    doLast {
+        javaexec {
+            systemProperties['selenide.headless'] = 'false'
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = [
+                    '--plugin', 'pretty',
+                    '--plugin', 'io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm',
+                    '--glue', 'org.onap.portal.e2e.test',
+                    '--tags', '@debug',
+                    'src/test/resources']
+        }
+    }
+}
+
+tasks.register('cucumberCli') {
+    cleanupAllure
+    dependsOn assemble, testClasses
+    doLast {
+        javaexec {
+            systemProperties['selenide.headless'] = 'true'
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = [
+                    '--plugin', 'pretty',
+                    '--plugin', 'io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm',
+                    '--glue', 'org.onap.portal.e2e.test',
+                    'src/test/resources']
+        }
+    }
+}
+
+tasks.register('cleanupAllure') {
+    delete "allure-results"
+}
