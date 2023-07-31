@@ -3,7 +3,7 @@ plugins {
     id 'io.qameta.allure' version '2.9.3'
 }
 apply plugin: 'io.qameta.allure'
-group 'org.onap.portal.e2e.test'
+group 'org.onap.portalng.e2e'
 version '1.0'
 
 repositories {
@@ -46,8 +46,8 @@ allprojects {
     apply plugin: 'io.qameta.allure'
 
     java {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
 
     test {
@@ -69,7 +69,7 @@ tasks.register('cucumber') {
             args = [
                     '--plugin', 'pretty',
                     '--plugin', 'io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm',
-                    '--glue', 'org.onap.portal.e2e.test',
+                    '--glue', 'org.onap.portalng.e2e',
                     'src/test/resources']
         }
     }
@@ -86,7 +86,7 @@ tasks.register('cucumberLocalDebug') {
             args = [
                     '--plugin', 'pretty',
                     '--plugin', 'io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm',
-                    '--glue', 'org.onap.portal.e2e.test',
+                    '--glue', 'org.onap.portalng.e2e',
                     '--tags', '@debug',
                     'src/test/resources']
         }
@@ -104,7 +104,7 @@ tasks.register('cucumberCli') {
             args = [
                     '--plugin', 'pretty',
                     '--plugin', 'io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm',
-                    '--glue', 'org.onap.portal.e2e.test',
+                    '--glue', 'org.onap.portalng.e2e',
                     'src/test/resources']
         }
     }
