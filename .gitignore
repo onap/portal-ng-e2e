@@ -1,0 +1,9 @@
+allure-report/
+allure-results/
+out/
+build/
+target/
+.gradle/
+.idea/
+src/main/java/de/.DS_Store
+results.html
