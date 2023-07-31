@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d5309d4e_c156ff39",
+        "filename": "build.gradle",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:43:25Z",
+      "side": 1,
+      "message": "Can you change this to `org.onap.portal-ng.e2e.test`?",
+      "revId": "46af9b7bc12db9fd42663d9d1e9a47e730ee5235",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4eb385c8_4e43a7be",
+        "filename": "build.gradle",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:43:25Z",
+      "side": 1,
+      "message": "Can you change this to at least Java 11? ONAP is currently moving to Java 17 and here we are using 8",
+      "revId": "46af9b7bc12db9fd42663d9d1e9a47e730ee5235",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e9a14b86_b8180d89",
+        "filename": "build.gradle",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:43:25Z",
+      "side": 1,
+      "message": "Same here",
+      "revId": "46af9b7bc12db9fd42663d9d1e9a47e730ee5235",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f56b72c_28b8ae91",
+        "filename": "build.gradle",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:43:25Z",
+      "side": 1,
+      "message": "Also change the group name here when you are changing it above",
+      "revId": "46af9b7bc12db9fd42663d9d1e9a47e730ee5235",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5268e2d7_3f333589",
+        "filename": "build.gradle",
+        "patchSetId": 2
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-07-31T09:43:25Z",
+      "side": 1,
+      "message": "and here",
+      "revId": "46af9b7bc12db9fd42663d9d1e9a47e730ee5235",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    }
+  ]
+}
