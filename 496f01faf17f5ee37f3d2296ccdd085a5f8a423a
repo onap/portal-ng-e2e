@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5aa08bb_383fecba",
+        "filename": "README.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-08-07T08:34:51Z",
+      "side": 1,
+      "message": "Please specify that this is shell code by using \\`\\`\\`sh",
+      "revId": "496f01faf17f5ee37f3d2296ccdd085a5f8a423a",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    }
+  ]
+}
