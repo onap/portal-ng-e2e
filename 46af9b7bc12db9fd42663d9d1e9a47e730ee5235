@@ -18,6 +18,24 @@
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "317863ab_608ebaa1",
+        "filename": "build.gradle",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-08-08T08:04:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d5309d4e_c156ff39",
+      "revId": "46af9b7bc12db9fd42663d9d1e9a47e730ee5235",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4eb385c8_4e43a7be",
@@ -105,6 +123,24 @@
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f48031f1_0a072285",
+        "filename": "build.gradle",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-08-08T08:04:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6f56b72c_28b8ae91",
+      "revId": "46af9b7bc12db9fd42663d9d1e9a47e730ee5235",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5268e2d7_3f333589",
@@ -118,6 +154,24 @@
       "writtenOn": "2023-07-31T09:43:25Z",
       "side": 1,
       "message": "and here",
+      "revId": "46af9b7bc12db9fd42663d9d1e9a47e730ee5235",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b05fe39_243670fb",
+        "filename": "build.gradle",
+        "patchSetId": 2
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 7849
+      },
+      "writtenOn": "2023-08-08T08:04:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5268e2d7_3f333589",
       "revId": "46af9b7bc12db9fd42663d9d1e9a47e730ee5235",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a"
     }
