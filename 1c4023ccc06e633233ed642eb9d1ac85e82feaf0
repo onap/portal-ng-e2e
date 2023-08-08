@@ -1,0 +1,9 @@
+Verified+1: ONAP Required GHA <releng+onap.required.gha@linuxfoundation.org>
+Verified+1: Fiete Ostkamp <fiete.ostkamp@telekom.de>
+Code-Review+2: Fiete Ostkamp <fiete.ostkamp@telekom.de>
+Verified+1: ONAP Jobbuilder <onap-jobbuilder@jenkins.onap.org>
+Submitted-by: Fiete Ostkamp <fiete.ostkamp@telekom.de>
+Submitted-at: Tue, 08 Aug 2023 08:04:43 +0000
+Reviewed-on: https://gerrit.onap.org/r/c/portal-ng/e2e/+/135605
+Project: portal-ng/e2e
+Branch: refs/heads/master
